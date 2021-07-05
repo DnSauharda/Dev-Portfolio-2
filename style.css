@@ -45,9 +45,43 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.bottom-banner{
+    background-image: url(images/gr-exp-bg.png);
+    background-repeat: no-repeat;
+}
 h2{
     font-size: 40px;
 }
 .p2{
     padding-right: 87px;
+}
+.end-txt{
+    text-align: center;
+}
+.villans img{
+    width: 65%;
+    padding-left: 30px;
+}
+.villans{
+    width: 50%;
+    margin: 5%;
+    padding-left: 20px;
+    border-radius: 3px;
+    box-shadow: 10px 10px 40px gray;
+}
+#left{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(42, 150, 0), rgb(11, 144, 221));
+    border-image-slice: 1;
+}
+#right{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(167, 7, 167), rgb(1, 177, 1));
+    border-image-slice: 1;
+}
+#vtxt{
+    color:rgb(12, 136, 33);
+}
+#mtxt{
+    color:rgb(167, 7, 167);
 }
